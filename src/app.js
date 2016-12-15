@@ -7,10 +7,10 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          &#xf0c4;
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+        <Text style={styles.title}>
+          Sesavali
         </Text>
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}

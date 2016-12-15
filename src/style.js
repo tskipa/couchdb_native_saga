@@ -5,16 +5,26 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#EECCDD',
+    backgroundColor: '#EECCDD'
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 120,
+    fontFamily: 'FontAwesome',
     textAlign: 'center',
-    margin: 10,
+    margin: 10
+  },
+  title: {
+    textAlign: 'center',
+    fontSize: 28,
+    // fontFamily: 'BPG SuperSquare 2013',
+    // fontFamily: 'BPG ExtraSquare Mtavruli',
+    fontFamily: 'Geo Sabechdi Mtavr ASTER',
+    color: '#333333',
+    marginBottom: 5
   },
   instructions: {
     textAlign: 'center',
     color: '#333333',
-    marginBottom: 5,
-  },
+    marginBottom: 5
+  }
 });

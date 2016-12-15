@@ -22,6 +22,11 @@
 	"jest": {
 		"preset": "react-native"
 	},
+	"rnpm": {
+  	"assets": [
+    	"./assets/fonts"
+    ]
+  },
 	"repository": {
     "type": "git",
     "url": "git@bitbucket.org:tskipa/couchdb_native_saga.git"
