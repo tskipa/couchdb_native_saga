@@ -7,6 +7,33 @@ import {styles} from './style';
 
 const onRight = () => {
   Actions.main();
+  let dbURL = "http://localhost:5810/github/"
+  // fetch(dbURL).then((response) => {
+  //   if (response.status !== 200) {
+  //     return fetch(dbURL, {method:"PUT"})
+  //     .then((response) => response.json()).then((data) => {
+  //       console.log("create db", data)
+  //       return data;
+  //     }).catch(err => {
+  //       console.log(err);
+  //     })
+  //   }
+  // });
+  // fetch(dbURL, {method:"POST", body : JSON.stringify({name: 'მთავარი გვერდი'})})
+  // .then((response) => response.json()).then((data) => {
+  //   console.log("create document", data)
+  //   return data;
+  // }).catch(err => {
+  //   console.log(err);
+  // });
+  fetch(dbURL + '_all_docs?include_docs=true')
+  .then((response) => response.json()).then((data) => {
+    var docs = data.rows.map((row) => (row.doc));
+    console.log('all documents', docs);
+    return docs;
+  }).catch(err => {
+    console.log(err);
+  });
 }
 
 const RouterComponent = () => {
