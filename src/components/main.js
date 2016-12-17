@@ -32,7 +32,6 @@ const Main = ({value, isLoading, onIncrement, onDecrement, onIncrementAsync}) =>
 }
 
 const mapStateToProps = ({counter, isLoading}) => {
-  console.log(isLoading);
   return {
     value: counter,
     isLoading
