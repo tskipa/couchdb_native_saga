@@ -1,7 +1,5 @@
 # === couchdb_native_saga ===
 
-# === Getting Started ===
-
 This is a React Native project with Couchbase Lite and Redux-saga.
 As of today (12-17-16) only ios version is there to play with.
 
@@ -41,6 +39,9 @@ Couchbase Lite install: https://gist.github.com/jchris/3c32524577deff3d69aa
 [self launchCouchbaseLite];
 ```
 -------------------------------------------------------------------------------
+
+# === Getting Started ===
+
 Checkout this repo, install depdencies, then start with the following:
 
 ```

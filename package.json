@@ -33,6 +33,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:tskipa/couchdb_native_saga.git"
+    "url": "git@github.com:tskipa/couchdb_native_saga.git"
   }
 }
